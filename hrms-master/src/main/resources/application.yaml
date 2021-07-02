@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: hrms
+      
+  profiles:
+    active: dev
+
+iyabobo:
+  tenant:
+    userId: root
+    userPwd: emmoxbobo
+    hostDBUrl: jdbc:mysql://localhost:6603/testDB?allowMultiQueries=true&allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    hostDBdriver: com.mysql.cj.jdbc.Driver
